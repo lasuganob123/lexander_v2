@@ -1,0 +1,83 @@
+/** Font **/
+@font-face {
+    font-family: BoldFont;
+    src: url('../font/theboldfont.woff');
+}
+/** End Font **/
+body {
+    margin: 0;
+    font-family: "Calibre", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/**Header**/
+#head-content {
+    min-height: 600px;
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#head-top {
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    top: 40px;
+}
+#head-top .logo-holder img {
+    height: 150px;
+    position: relative;
+    top: -30px;
+}
+#head-top .head-menu {
+    height: 100px;
+}
+#head-top .head-menu ul {
+    line-height: 100px;
+    font-family: BoldFont;
+}
+#head-top .head-menu ul li {
+    display: inline-block;
+    padding-right: 15px;
+}
+#head-top .head-menu ul li:last-child a {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+#head-top .head-menu a {
+    color: white;
+    font-size: medium;
+}
+
+#head-text {
+    margin: 10% auto;
+    width: 85%;
+    padding: 50px;
+    color: white;
+    background-color: rgba(0,0,0, 0.5);
+    position: relative;
+    min-height: 300px;
+}
+#head-text h1 {
+    font-size: 5vw;
+    font-family: BoldFont;
+    text-align: center;
+}
+#head-text h3 {
+    font-size: 3vw;
+    font-family: fantasy;
+    text-align: right;
+}
+#head-text #contacts {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 40px;
+    margin-left: 3%;
+}
+#head-text #contacts a {
+    color: #928887;
+}
+
+/**End Header**/
